@@ -1,0 +1,23 @@
+Almost always avoid auto
+
+Trailing ruturn types
+    Others preferred Trailing return types bc
+    the funcion name gets lost in the rest of the keywrds when all the 
+    attributes are used.
+
+What cant be constexpr in our ARM elmulator
+    Nothing
+
+Downsides?
+    doesn't necessarily mean slow conpilation
+        That comes from very large symbol tables 
+        both long symbol names and many symbol names
+
+catch2 framework
+
+ implicit conversions
+
+Thinking Portable
+    Rely on the std library, thread, filesystem, and regex are huge help
+
+

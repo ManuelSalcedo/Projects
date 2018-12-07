@@ -1,0 +1,40 @@
+Vim Notes
+
+Remap Caps Lock to ESC
+Speed up your key repeat
+    Delay 400
+    Key repeat  25
+
+Basics:
+Modes
+    Normal
+    Insert
+    Visual
+
+Commands - Say them in your head
+    CI)
+        Change
+        Inside
+        Parens
+
+Config
+    ~./vimrc
+    version control your vimrc
+    Steal dotfiles
+
+vimtutor
+vim-adventures.com
+
+Screen Casts - watch others use VIM
+
+Vimcasts.org
+Upcase.com/vim
+
+Plugins:
+Ctrl_p
+NERDTree
+AG for Vim - lets you search
+
+
+
+

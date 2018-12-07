@@ -1,0 +1,48 @@
+https://realpython.com/python-virtual-environments-a-primer/
+
+using pip install virtualenv
+
+Create new environments
+# Python 2:
+$ virtualenv env
+
+# Python 3
+$ python3 -m venv env
+
+then
+$ source env/bin/activate
+(env) $ #and deactivate to exit
+
+To help manage env using:
+pip install virtualenvwrapper
+
+
+Example:
+which virtualenvwrapper.sh
+/usr/local/bin/virtualenvwrapper.sh
+
+Mine:
+manuel@manuel-MacBookPro:~$ which virtualenvwrapper.sh
+/home/manuel/.local/bin/virtualenvwrapper.sh
+
+workon
+deactivate
+mkvirtualenv
+cdvirtualenv
+rmvirtualenv
+
+Creating new environments in python 3.6.7
+$ virtualenv -p $(which python3) virtualenv_nametemp
+
+So now I can go to projects and then launch a new virtual env
+for either all python3 projects or specific python versions
+
+currently going to be using (project_py3.6.7_env) manuel@manuel-MacBookPro:~$
+for all python3 projects
+
+
+Using pipenv:
+https://github.com/pypa/pipenv
+
+Create a new project using Python 3.7, specifically:
+   $ pipenv --python 3.7

@@ -1,0 +1,23 @@
+To start gdb
+help all    // list of all commands
+
+gdb
+
+disassemble main
+
+set disassembly-flavor intel
+disassemble main
+
+break *main
+run         // make sure file is chmod +x
+
+info registers
+
+si  // set one instruction (steps into funcion calls)
+ni  // to repeat command just press ENTER
+
+continue    // runs program until breakpoint
+
+EAX refers to the first 32bits of the 64 bit RAX register
+
+set $eax=0  // sets value of eax register to 0

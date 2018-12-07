@@ -1,0 +1,19 @@
+https://sushant94.me/2015/05/31/Introduction_to_radare2/
+
+r2 ./hello_world
+
+aa          // Analyze All
+
+v or VV     // Double V to view in visual mode
+            //move using hjkl
+q           // quit
+
+o           //to seek.
+u/U         //to undo/redo seek.
+dr and d    // in general in visual mode
+
+Extra:
+no aslr:
+    64-bit - 40058e
+    32-bit - 804846c
+    return values are handled by eax

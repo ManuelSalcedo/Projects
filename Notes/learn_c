@@ -1,0 +1,8 @@
+static - 
+By default, variables are local to the scope in which they are defined. 
+Variables can be declared as static to increase their scope up to file containing them. 
+As a result, these variables can be accessed anywhere inside a file.
+
+static function - 
+By default, functions are global in C. If we declare a function with static, 
+the scope of that function is reduced to the file containing it.
